@@ -1,0 +1,1882 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@import url(../node_modules/animate.css/);
+/* the thing that we cant ok whit bootstrap like move the things with postion*/
+/*responsive the things that we cant ok with bootstrap (
+sreen to 540)  */
+@media  screen and (max-width:540px) {
+ .header-box {
+    position: relative !important;
+    .left-side {
+      position: absolute !important;
+      background-color: #282b2f !important;
+      height: 100px;
+      .header-img {
+        padding: 55px;
+        img {
+          width: 110px;
+        }
+      }
+      div {
+        background-image: url(../image/cafe_mobile_logo2x.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 200px;
+        margin: 15.5px 30px;
+      }
+      div {
+        .image1-sm {
+          display: none;
+        }
+      }
+      .list-item {
+        display: block;
+      }
+      .aseom-box {
+        padding: 10px;
+        display: none;
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 50px;
+          height: 34px;
+          background-color: #313539;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 10px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 7.5px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 7px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 6px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+      div {
+        ul {
+          li {
+            a {
+              text-transform: uppercase;
+              color: white;
+              transition: all 500ms linear;
+              font-family: "cafefont";
+              &:hover {
+                color: #a26336;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main-part {
+    .background-image {
+      width: 100%;
+      height: 100vh;
+      background-image: url(../image/cafe-hero-home.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .container-11 {
+      .grid {
+        .image-2 {
+          width: 100%;
+          height: 900px;
+          background-image: url(../image/about-background2.png);
+        }
+        div {
+          background-color: #313539;
+          .part-1 {
+            padding: 40px 10px;
+            gap: 15px;
+            height: 971px;
+            display: flex;
+            flex-direction: column;
+            h1 {
+              color: white;
+              font-size: 42px;
+              font-family: "unicafont";
+              width: 400px;
+            }
+            h6 {
+              color: #ae7445;
+              font-family: "unicafont";
+              width: 390px;
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              color: rgba(255, 255, 255, 0.619);
+              font-family: "vollcornfont";
+              line-height: 20px;
+              width: 450px;
+              font-size: 15px;
+              margin-top: 14px;
+              margin-bottom: 17px;
+            }
+            .image-box {
+              gap: 20px;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              img {
+                width: 300px;
+              }
+            }
+            .btn-class {
+              width: 200px;
+              height: 60px;
+            }
+          }
+        }
+      }
+      .grid2 {
+        .background-2 {
+          height: 672px;
+          background-image: url(../image/parallax-image.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          .flex-class {
+            width: 100%;
+            height: 672px;
+            gap: 10px;
+            h2 {
+              color: white;
+              font-family: "unicafont";
+              font-size: 60px;
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              font-size: 25px;
+              color: white;
+              width: 436px;
+              font-family: "vollcornfont";
+              text-align: center;
+            }
+            .btn-btn {
+              width: 200px;
+              height: 60px;
+            }
+          }
+        }
+      }
+      .grid3 {
+        .part1-grid3 {
+          background-color: #24292d;
+          padding: 60px;
+
+          div {
+            height: 400px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 34px;
+              width: 300px;
+              font-family: "unicafont";
+              margin-top: 30px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 30px;
+            }
+          }
+        }
+        .part2-grid3 {
+          background-color: #313539;
+          padding: 60px;
+          div {
+            height: 400px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 34px;
+              width: 300px;
+              font-family: "unicafont";
+              margin-top: 30px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 40px;
+            }
+          }
+        }
+      }
+      .grid4 {
+        background-color: #24292d;
+        .image1-p1,
+        .image1-p2,
+        .image1-p3,
+        .image1-p4 {
+          width: 100%;
+          height: 714px;
+          filter: sepia(0.2);
+          transition: all 500ms linear;
+          &:hover {
+            filter: sepia(1);
+            transform: scale(1.1);
+          }
+        }
+        h4 {
+          font-size: 30px;
+          font-family: "unicafont";
+          color: white;
+          transition: all cubic-bezier(0.47, 0, 0.745, 0.715) linear;
+          text-align: center;
+          padding: 25px;
+          &:hover {
+            color: #a38159;
+          }
+        }
+      }
+      .avada_logo {
+        background-color: #313539;
+        img {
+          width: 220px;
+          height: 85px;
+        }
+        hr {
+          width: 500px;
+        }
+        .text-parent {
+          gap: 50px;
+          padding: 50px;
+          .text-fot {
+            font-family: "unicafont";
+          }
+        }
+      }
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .aseom-box {
+        display: flex;
+        flex-direction: row;
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 34px;
+          height: 34px;
+          background-color: #750e5600;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 10px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 9px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 8px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 7px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+
+      gap: 10px;
+      background-color: #313539;
+      .text-parent {
+        width: 400px;
+        .a-1,
+        .a-2,
+        .a-3,
+        .a-4 {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            color: #ae895b;
+          }
+        }
+      }
+    }
+  }
+}
+/* the thing that we cant ok whit bootstrap like move the things with postion*/
+/*responsive the things that we cant ok with bootstrap (540 to 768)    */
+@media (min-width: 540px) and (max-width: 768px) {
+  .header-box {
+    position: relative !important;
+    .left-side {
+      position: absolute !important;
+      background-color: #282b2f !important;
+      height: 100px;
+      .header-img {
+        padding: 55px;
+        img {
+          width: 110px;
+        }
+      }
+      div {
+        background-image: url(../image/cafe_mobile_logo2x.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 200px;
+        margin: 15.5px 30px;
+      }
+      div {
+        .image1-sm {
+          display: none;
+        }
+      }
+      .list-item {
+        display: none;
+      }
+      .aseom-box {
+        padding: 10px;
+        display: none;
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 50px;
+          height: 34px;
+          background-color: #313539;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 10px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 7.5px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 7px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 6px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+      div {
+        ul {
+          li {
+            a {
+              text-transform: uppercase;
+              color: white;
+              transition: all 500ms linear;
+              font-family: "cafefont";
+              &:hover {
+                color: #a26336;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main-part {
+    .background-image {
+      width: 100%;
+      height: 100vh;
+      background-image: url(../image/cafe-hero-home.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .container-11 {
+      .grid {
+        .image-2 {
+          width: 100%;
+          height: 900px;
+          background-image: url(../image/about-background2.png);
+        }
+        div {
+          background-color: #313539;
+          .part-1 {
+            padding: 40px 10px;
+            gap: 15px;
+            height: 971px;
+            display: flex;
+            flex-direction: column;
+            h1 {
+              color: white;
+              font-size: 52px;
+              font-family: "unicafont";
+              width: 500px;
+            }
+            h6 {
+              color: #ae7445;
+              font-family: "unicafont";
+              width: 390px;
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              color: rgba(255, 255, 255, 0.619);
+              font-family: "vollcornfont";
+              line-height: 20px;
+              width: 450px;
+              font-size: 15px;
+              margin-top: 14px;
+              margin-bottom: 17px;
+            }
+            .image-box {
+              gap: 20px;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              img {
+                width: 300px;
+              }
+            }
+            .btn-class {
+              width: 200px;
+              height: 60px;
+            }
+          }
+        }
+      }
+      .grid2 {
+        .background-2 {
+          height: 672px;
+          background-image: url(../image/parallax-image.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          .flex-class {
+            width: 100%;
+            height: 672px;
+            gap: 10px;
+            h2 {
+              color: white;
+              font-family: "unicafont";
+              font-size: 60px;
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              font-size: 25px;
+              color: white;
+              width: 436px;
+              font-family: "vollcornfont";
+              text-align: center;
+            }
+            .btn-btn {
+              width: 200px;
+              height: 60px;
+            }
+          }
+        }
+      }
+      .grid3 {
+        .part1-grid3 {
+          background-color: #24292d;
+          padding: 60px;
+
+          div {
+            height: 400px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 34px;
+              width: 440px;
+              font-family: "unicafont";
+              margin-top: 30px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 30px;
+            }
+          }
+        }
+        .part2-grid3 {
+          background-color: #313539;
+          padding: 60px;
+          div {
+            height: 400px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 34px;
+              width: 440px;
+              font-family: "unicafont";
+              margin-top: 30px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 40px;
+            }
+          }
+        }
+      }
+      .grid4 {
+        background-color: #24292d;
+        .image1-p1,
+        .image1-p2,
+        .image1-p3,
+        .image1-p4 {
+          width: 100%;
+          height: 714px;
+          filter: sepia(0.2);
+          transition: all 500ms linear;
+          &:hover {
+            filter: sepia(1);
+            transform: scale(1.1);
+          }
+        }
+        h4 {
+          font-size: 30px;
+          font-family: "unicafont";
+          color: white;
+          transition: all cubic-bezier(0.47, 0, 0.745, 0.715) linear;
+          text-align: center;
+          padding: 25px;
+          &:hover {
+            color: #a38159;
+          }
+        }
+      }
+      .avada_logo {
+        background-color: #313539;
+        img {
+          width: 220px;
+          height: 85px;
+        }
+        hr {
+          width: 500px;
+        }
+        .text-parent {
+          gap: 50px;
+          padding: 50px;
+          .text-fot {
+            font-family: "unicafont";
+          }
+        }
+      }
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .aseom-box {
+        display: flex;
+        flex-direction: row;
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 34px;
+          height: 34px;
+          background-color: #750e5600;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 10px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 9px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 8px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 7px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+
+      gap: 10px;
+      background-color: #313539;
+      .text-parent {
+        width: 400px;
+        .a-1,
+        .a-2,
+        .a-3,
+        .a-4 {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            color: #ae895b;
+          }
+        }
+      }
+    }
+  }
+}
+/*responsive the things that we cant ok with bootstrap (768 to 992)    */
+@media (min-width: 768px) and (max-width: 992px) {
+  .header-box {
+    position: static !important;
+    .left-side {
+      position: absolute !important;
+      background-color: #282b2f !important;
+      height: 100px;
+      .header-img {
+        padding: 55px;
+        img {
+          width: 110px;
+        }
+      }
+      div {
+        background-image: url(../image/cafe_mobile_logo2x.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 200px;
+        margin: 0px 30px;
+      }
+      .aseom-box {
+        padding: 10px;
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 50px;
+          height: 34px;
+          background-color: #313539;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 10px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 7.5px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 7px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 6px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+      div {
+        ul {
+          li {
+            a {
+              text-transform: uppercase;
+              color: white;
+              transition: all 500ms linear;
+              font-family: "cafefont";
+              &:hover {
+                color: #a26336;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main-part {
+    .background-image {
+      width: 100%;
+      height: 100vh;
+      background-image: url(../image/cafe-hero-home.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .container-11 {
+      .grid {
+        .image-2 {
+          width: 100px;
+          height: 900px;
+          background-image: url(../image/about-background2.png);
+        }
+        div {
+          background-color: #313539;
+          .part-1 {
+            height: 960px;
+            margin: 50px;
+            gap: 20px;
+            h1 {
+              color: white;
+              font-size: 57px;
+              font-family: "unicafont";
+            }
+            h6 {
+              color: #ae7445;
+              font-family: "unicafont";
+              font-size: 18px;
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              color: rgba(255, 255, 255, 0.619);
+              font-family: "vollcornfont";
+              line-height: 30px;
+              font-size: 15px;
+              width: 614px;
+            }
+            .image-box {
+              gap: 15px;
+              img {
+                width: 300px;
+              }
+            }
+            .btn-class {
+              width: 200px;
+              height: 60px;
+            }
+          }
+        }
+      }
+      .grid2 {
+        .background-2 {
+          height: 672px;
+          background-image: url(../image/parallax-image.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          .flex-class {
+            width: 100%;
+            height: 672px;
+            gap: 10px;
+            h2 {
+              color: white;
+              font-family: "unicafont";
+              font-size: 60px;
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              font-size: 25px;
+              color: white;
+              width: 436px;
+              font-family: "vollcornfont";
+              text-align: center;
+            }
+            .btn-btn {
+              width: 200px;
+              height: 60px;
+            }
+          }
+        }
+      }
+      .grid3 {
+        .part1-grid3 {
+          background-color: #24292d;
+          padding: 70px;
+
+          div {
+            height: 400px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 34px;
+              width: 584px;
+              font-family: "unicafont";
+              margin-top: 30px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 30px;
+            }
+          }
+        }
+        .part2-grid3 {
+          background-color: #313539;
+          padding: 70px;
+          div {
+            height: 400px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 34px;
+              width: 600px;
+              font-family: "unicafont";
+              margin-top: 30px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 40px;
+            }
+          }
+        }
+      }
+      .grid4 {
+        background-color: #24292d;
+        .image1-p1,
+        .image1-p2,
+        .image1-p3,
+        .image1-p4 {
+          width: 191px;
+          height: 255px;
+          filter: sepia(0.2);
+          transition: all 500ms linear;
+          &:hover {
+            filter: sepia(1);
+            transform: scale(1.1);
+          }
+        }
+        h4 {
+          font-size: 20px;
+          font-family: "unicafont";
+          color: white;
+          transition: all 400ms linear;
+          &:hover {
+            color: #a38159;
+          }
+        }
+      }
+      .avada_logo {
+        background-color: #313539;
+        img {
+          width: 220px;
+          height: 85px;
+        }
+        hr {
+          width: 600px;
+        }
+        .text-parent {
+          gap: 90px;
+          padding: 50px;
+          .text-fot {
+            font-family: "unicafont";
+          }
+        }
+      }
+    }
+    .footer {
+      .aseom-box {
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 34px;
+          height: 34px;
+          background-color: #750e5600;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 10px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 9px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 8px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 7px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+
+      gap: 0px;
+      background-color: #313539;
+      .text-parent {
+        width: 500px;
+        .a-1,
+        .a-2,
+        .a-3,
+        .a-4 {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            color: #ae895b;
+          }
+        }
+      }
+    }
+  }
+}
+/*responsive the things that we cant ok with bootstrap (992 to 1200)    */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .header-box {
+    .left-side {
+      background-color: #282b2f !important;
+      height: 100vh;
+      hr {
+        background-color: white;
+        opacity: 0.1;
+      }
+      .aseom-box {
+        padding: 50px;
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 34px;
+          height: 34px;
+          background-color: #313539;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 12px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 9px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 8.5px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 7px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+      div {
+        ul {
+          li {
+            a {
+              text-transform: uppercase;
+              color: white;
+              transition: all 500ms linear;
+              font-family: "cafefont";
+              &:hover {
+                color: #a26336;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main-part {
+    .background-image {
+      width: 100%;
+      height: 100vh;
+      background-image: url(../image/cafe-hero-home.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .container-11 {
+      .grid {
+        .image-2 {
+          width: 100px;
+          height: 960px;
+          background-image: url(../image/about-background2.png);
+          background-size: cover;
+        }
+        div {
+          background-color: #313539;
+          .part-1 {
+            height: 960px;
+            gap: 20px;
+            padding: 20px;
+            h1 {
+              color: white;
+              font-size: 57px;
+              font-family: "unicafont";
+            }
+            h6 {
+              color: #ae7445;
+              font-family: "unicafont";
+              font-size: 18px;
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              color: rgba(255, 255, 255, 0.619);
+              font-family: "vollcornfont";
+              line-height: 30px;
+              width: 376px;
+            }
+            .image-box {
+              gap: 0px;
+              img {
+                width: 188px;
+              }
+            }
+            .btn-class {
+              width: 200px;
+              height: 60px;
+            }
+          }
+        }
+      }
+      .grid2 {
+        .background-2 {
+          height: 672px;
+          background-image: url(../image/parallax-image.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          .flex-class {
+            width: 100%;
+            height: 672px;
+            gap: 10px;
+            h2 {
+              color: white;
+              font-family: "unicafont";
+              font-size: 60px;
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              font-size: 25px;
+              color: white;
+              width: 436px;
+              font-family: "vollcornfont";
+              text-align: center;
+            }
+            .btn-btn {
+              width: 200px;
+              height: 60px;
+            }
+          }
+        }
+      }
+      .grid3 {
+        .part1-grid3 {
+          background-color: #24292d;
+          padding: 45px;
+          div {
+            height: 400px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 35px;
+              width: 300px;
+              font-family: "unicafont";
+              margin-top: 30px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 40px;
+            }
+          }
+        }
+        .part2-grid3 {
+          background-color: #313539;
+          padding: 45px;
+          div {
+            height: 400px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 35px;
+              width: 250px;
+              font-family: "unicafont";
+              margin-top: 30px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 40px;
+            }
+          }
+        }
+      }
+      .grid4 {
+        background-color: #24292d;
+        .image1-p1,
+        .image1-p2,
+        .image1-p3,
+        .image1-p4 {
+          width: 100%;
+          height: 489px;
+          filter: sepia(0.2);
+          transition: all 500ms linear;
+          &:hover {
+            filter: sepia(1);
+            transform: scale(1.1);
+          }
+        }
+        h4 {
+          font-size: 34px;
+          text-align: center;
+          font-family: "unicafont";
+          color: white;
+          transition: all 400ms linear;
+          &:hover {
+            color: #a38159;
+          }
+        }
+      }
+      .avada_logo {
+        background-color: #313539;
+        img {
+          width: 220px;
+          height: 85px;
+        }
+        hr {
+          width: 600px;
+        }
+        .text-parent {
+          gap: 90px;
+          padding: 50px;
+          .text-fot {
+            font-family: "unicafont";
+          }
+        }
+      }
+    }
+    .footer {
+      .aseom-box {
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 34px;
+          height: 34px;
+          background-color: #750e5600;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 10px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 9px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 8px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 7px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+
+      gap: 40px;
+      background-color: #313539;
+      .text-parent {
+        .a-1,
+        .a-2,
+        .a-3,
+        .a-4 {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            color: #ae895b;
+          }
+        }
+      }
+    }
+  }
+}
+/* responsive the things that we cant ok with bootstrap (1200)*/
+@media (min-width: 1200px) {
+  .header-box {
+    .left-side {
+      background-color: #282b2f !important;
+      height: 100vh;
+      .header-img {
+        padding: 55px;
+        img {
+          width: 110px;
+        }
+      }
+      hr {
+        background-color: white;
+        opacity: 0.1;
+      }
+      .aseom-box {
+        padding: 20px;
+        margin-top: 90px;
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 34px;
+          height: 34px;
+          background-color: #313539;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 10px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 9px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 8px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 7px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+      div {
+        ul {
+          li {
+            a {
+              text-transform: uppercase;
+              color: white;
+              transition: all 500ms linear;
+              font-family: "cafefont";
+              &:hover {
+                color: #a26336;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main-part {
+    .background-image {
+      width: 100%;
+      height: 100vh;
+      background-image: url(../image/cafe-hero-home.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    div {
+      .grid {
+        .image-2 {
+          width: 100px;
+          height: 900px;
+          background-image: url(../image/about-background2.png);
+          background-size: cover;
+        }
+        div {
+          background-color: #313539;
+          .part-1 {
+            height: 900px;
+            padding: 70px;
+            gap: 20px;
+            h1 {
+              color: white;
+              font-size: 60px;
+              font-family: "unicafont";
+            }
+            h6 {
+              color: #ae7445;
+              font-family: "unicafont";
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              color: rgba(255, 255, 255, 0.619);
+              font-family: "vollcornfont";
+              line-height: 30px;
+              width: 600px;
+            }
+            .image-box {
+              gap: 120px;
+              img {
+                width: 250px;
+              }
+            }
+            .btn-class {
+              width: 200px;
+              height: 57px;
+            }
+          }
+        }
+      }
+      .grid2 {
+        .background-2 {
+          height: 672px;
+          background-image: url(../image/parallax-image.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          .flex-class {
+            width: 100%;
+            height: 672px;
+            gap: 10px;
+            h2 {
+              color: white;
+              font-family: "unicafont";
+              font-size: 60px;
+            }
+            hr {
+              width: 170px;
+              background-color: #ae895d;
+            }
+            p {
+              font-size: 25px;
+              color: white;
+              width: 936px;
+              font-family: "vollcornfont";
+              text-align: center;
+            }
+            .btn-btn {
+              width: 176px;
+              height: 57px;
+            }
+          }
+        }
+      }
+      .grid3 {
+        .part1-grid3 {
+          background-color: #24292d;
+          padding: 80px;
+          div {
+            height: 300px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 34px;
+              width: 400px;
+              font-family: "unicafont";
+              margin-top: 20px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 30px;
+            }
+          }
+        }
+        .part2-grid3 {
+          background-color: #313539;
+          padding: 80px;
+          div {
+            height: 300px;
+            h6 {
+              color: #ab875c;
+              font-size: 18px;
+              font-family: "cafefont";
+            }
+            hr {
+              background-color: #ab875c;
+              width: 170px;
+            }
+            h3 {
+              color: white;
+              font-size: 34px;
+              width: 400px;
+              font-family: "unicafont";
+              margin-top: 20px;
+            }
+            .button {
+              width: 193px;
+              height: 57px;
+              margin-top: 30px;
+            }
+          }
+        }
+      }
+      .grid4 {
+        background-color: #24292d;
+        .image1-p1,
+        .image1-p2,
+        .image1-p3,
+        .image1-p4 {
+          width: 100%;
+          height: 517.5px;
+          filter: sepia(0.2);
+          transition: all 500ms linear;
+          &:hover {
+            filter: sepia(1);
+            transform: scale(1.1);
+          }
+        }
+        h4 {
+          font-size: 34px;
+          font-family: "unicafont";
+          color: white;
+          transition: all 400ms linear;
+          &:hover {
+            color: #a38159;
+          }
+        }
+      }
+      .avada_logo {
+        background-color: #313539;
+        img {
+          width: 220px;
+          height: 85px;
+        }
+        hr {
+          width: 1400px;
+        }
+        .text-parent {
+          gap: 90px;
+          padding: 50px;
+          .text-fot {
+            font-family: "unicafont";
+          }
+        }
+      }
+    }
+    .footer {
+      .aseom-box {
+        .asem-1,
+        .asem-2,
+        .asem-3,
+        .asem-4 {
+          width: 34px;
+          height: 34px;
+          background-color: #750e5600;
+          border-radius: 50%;
+          .font-aseom-1 {
+            font-size: 18px;
+            left: 10px;
+            top: 5px;
+            color: rgba(240, 248, 255, 0.261);
+            transition: all 200s linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-2 {
+          .font-aseom-2 {
+            font-size: 22px;
+            left: 9px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.34);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-3 {
+          .font-aseom-3 {
+            font-size: 20px;
+            left: 8px;
+            top: 7px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+        .asem-4 {
+          .font-aseom-4 {
+            font-size: 18px;
+            left: 7px;
+            top: 6px;
+            color: rgba(240, 248, 255, 0.368);
+            transition: all 200ms linear;
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+
+      gap: 300px;
+      background-color: #313539;
+      .text-parent {
+        .a-1,
+        .a-2,
+        .a-3,
+        .a-4 {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            color: #ae895b;
+          }
+        }
+      }
+    }
+  }
+}
+/* some fonts */
+@font-face {
+  font-family: "cafefont";
+  src: url(../font/Share_Tech/ShareTech-Regular.ttf);
+}
+@font-face {
+  font-family: "unicafont";
+  src: url(../font/Unica_One/UnicaOne-Regular.ttf);
+}
+@font-face {
+  font-family: "vollcornfont";
+  src: url(../font/Vollkorn/Vollkorn-Italic-VariableFont_wght.ttf);
+}
